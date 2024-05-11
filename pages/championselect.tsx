@@ -23,13 +23,13 @@ const ChampionSelect = () => {
       <main className="flex-grow grid grid-cols-5">
         <div className="bg-gray-100 col-span-2 h-full">
           <div className="flex items-center justify-center h-20">
-            <h2 className="text-2xl font-bold">Left Column Title</h2>
+            <h2 className="text-2xl font-bold">Drag and Drop</h2>
           </div>
-          <div className="flex-grow">Left Column Content</div>
+          <div className="flex-grow">Drag and Drop</div>
         </div>
         <div className="bg-gray-200 col-span-3 h-full">
           <div className="flex items-center justify-center h-20">
-            <h2 className="text-2xl font-bold">Left Column Title</h2>
+            <h2 className="text-2xl font-bold">To Where They Are Going</h2>
           </div>
           <div className="flex-grow">Left Column Content</div>
         </div>
