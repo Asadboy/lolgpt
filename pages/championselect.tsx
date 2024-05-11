@@ -16,7 +16,7 @@ const ChampionSelect = () => {
         <p className="mt-3 text-2xl">Choose your champion and role</p>
 
         <div className="mt-6 text-2xl">
-          <Link href="/lolgpt">Proceed to Chat</Link>
+          <Link href="/lolgpt">Proceed to Chat Fucker</Link>
         </div>
       </main>
 
