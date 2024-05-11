@@ -6,8 +6,13 @@ module.exports = {
       colors: {
         dark: '#121212', // Dark background
         primary: '#0070f3', // Primary color
-        secondary: '#64ffda', // Secondary color
+        secondary: '#f44336', // Secondary color
         accent: '#8892b0', // Accent color
+        darkgray: '#121212',
+        lightgray: '#333333'
+      },
+      backgroundImage: {
+        'gradient-to-r-dark': 'linear-gradient(to right, #121212, #333333)'
       },
       fontFamily: {
         header: ['Montserrat', 'sans-serif'],
