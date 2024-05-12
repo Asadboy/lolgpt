@@ -3,6 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import React from "react";
 import ChampionSelector from "../components/Champselector.js";
+import MapComponent from "../components/map.js";
 import "../app/globals.css";
 
 const ChampionSelect = () => {
@@ -31,7 +32,9 @@ const ChampionSelect = () => {
           <div className="flex items-center justify-center h-20">
             <h2 className="text-2xl font-bold">To Where They Are Going</h2>
           </div>
-          <div className="flex-grow">Left Column Content</div>
+          <div className="flex-grow">
+            <MapComponent />
+          </div>
         </div>
       </main>
       <div className="flex items-center justify-center w-full h-24 border-t">
