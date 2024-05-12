@@ -64,9 +64,32 @@ const ChampionSelector = () => {
     champion.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const SearchBar = ({ searchTerm, onSearch }) => {
+    return (
+      <div>
+        <input
+          type="text"
+          placeholder="Search champions"
+          value={searchTerm}
+          onChange={onSearch}
+        />
+      </div>
+    );
+  };
+
+  const ChampionDisplay = ({ champions }) => {
+    return (
+      <div>
+        {champions.map((champion) => (
+          <div key={champion.id}>{champion.name}</div>
+        ))}
+      </div>
+    );
+  };
+
   return (
     <div>
-      <div>
+      <div className="sticky top-0 ">
         <input
           type="text"
           placeholder="Search champions"

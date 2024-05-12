@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import React from "react";
-import ChampionSelector from "../components/Champselector";
+import ChampionSelector from "../components/Champselector.js";
 import "../app/globals.css";
 
 const ChampionSelect = () => {
@@ -15,9 +15,9 @@ const ChampionSelect = () => {
       </Head>
 
       <div className="flex items-center justify-center w-full h-24 border-t">
-        <h1 className="text-6xl font-bold">Champion Select</h1>
+        <h1 className="text-6xl font-bold">Champions In Game and Role</h1>
       </div>
-      <div className="flex items-center justify-center w-full h-19 border-t">
+      <div className="flex items-center w-full h-19 border-t">
         <p className="mt-3 text-2xl">Choose your champion and role</p>
       </div>
 
