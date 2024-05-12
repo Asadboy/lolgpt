@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import React from "react";
+import ChampionSelector from "../components/Champselector.js";
 import "../app/globals.css";
 
 const ChampionSelect = () => {
@@ -14,18 +15,17 @@ const ChampionSelect = () => {
       </Head>
 
       <div className="flex items-center justify-center w-full h-24 border-t">
-        <h1 className="text-6xl font-bold">Champion Select</h1>
+        <h1 className="text-6xl font-bold">Champions In Game and Role</h1>
       </div>
-      <div className="flex items-center justify-center w-full h-19 border-t">
+      <div className="flex items-center w-full h-19 border-t">
         <p className="mt-3 text-2xl">Choose your champion and role</p>
       </div>
 
       <main className="flex-grow grid grid-cols-5">
-        <div className="bg-gray-100 col-span-2 h-full">
-          <div className="flex items-center justify-center h-20">
-            <h2 className="text-2xl font-bold">Drag and Drop</h2>
+        <div className="bg-gray-100 col-span-2 h-full flex flex-col overflow-auto">
+          <div className="h-14">
+            <ChampionSelector />
           </div>
-          <div className="flex-grow">Drag and Drop</div>
         </div>
         <div className="bg-gray-200 col-span-3 h-full">
           <div className="flex items-center justify-center h-20">
