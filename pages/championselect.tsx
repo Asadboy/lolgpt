@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import React from "react";
-import ChampionSelector from "../components/Champselector.js";
+import ChampionSelector from "../components/Champselector";
 import "../app/globals.css";
 
 const ChampionSelect = () => {
