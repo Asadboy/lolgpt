@@ -21,13 +21,13 @@ const ChampionSelect = () => {
         <p className="mt-3 text-2xl">Choose your champion and role</p>
       </div>
 
-      <main className="flex-grow grid grid-cols-5">
+      <main className="flex-grow grid grid-cols-7">
         <div className="bg-gray-100 col-span-2 h-full flex flex-col overflow-auto">
           <div className="h-14">
             <ChampionSelector />
           </div>
         </div>
-        <div className="bg-gray-200 col-span-3 h-full">
+        <div className="bg-gray-200 col-span-5 h-full">
           <div className="flex items-center justify-center h-20">
             <h2 className="text-2xl font-bold">To Where They Are Going</h2>
           </div>
