@@ -22,12 +22,8 @@ const ChampionSelect = () => {
       </div>
 
       <main className="flex-grow grid grid-cols-5">
-        <div className="bg-gray-100 col-span-2 h-full">
-          <div className="flex items-center justify-center h-20">
-            <h2 className="text-2xl font-bold">Drag and Drop</h2>
-          </div>
-          <div className="flex-grow">
-            Drag and Drop
+        <div className="bg-gray-100 col-span-2 h-full flex flex-col overflow-auto">
+          <div className="h-14">
             <ChampionSelector />
           </div>
         </div>
