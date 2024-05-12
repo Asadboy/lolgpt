@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import React from "react";
+import ChampionSelector from "../components/Champselector.js";
 import "../app/globals.css";
 
 const ChampionSelect = () => {
@@ -25,7 +26,10 @@ const ChampionSelect = () => {
           <div className="flex items-center justify-center h-20">
             <h2 className="text-2xl font-bold">Drag and Drop</h2>
           </div>
-          <div className="flex-grow">Drag and Drop</div>
+          <div className="flex-grow">
+            Drag and Drop
+            <ChampionSelector />
+          </div>
         </div>
         <div className="bg-gray-200 col-span-3 h-full">
           <div className="flex items-center justify-center h-20">
